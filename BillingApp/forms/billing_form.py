@@ -35,8 +35,8 @@ class BillingForm(QWidget):
 
         # Table to display bills
         self.bill_table = QTableWidget()
-        self.bill_table.setColumnCount(6)
-        self.bill_table.setHorizontalHeaderLabels(["ID", "Customer Name", "Phone", "Product", "Quantity", "Total"])
+        self.bill_table.setColumnCount(7)
+        self.bill_table.setHorizontalHeaderLabels(["ID", "Customer Name", "Phone", "Product", "Quantity","Price per Unit", "Total"])
 
         # Layout
         form_layout = QVBoxLayout()
